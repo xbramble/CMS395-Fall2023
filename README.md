@@ -1,8 +1,8 @@
 # CMS395-Fall2023
 Final Project
 
-Group Name:
+Group Name: Rising Sun
 Game Name:
-Xandria Bramble:
-Avery Miller:
-Wolf:
+Xandria Bramble: Sound Design
+Avery Miller: Story Writer, Programmer
+Wolf Pickens: Project Lead, Art
