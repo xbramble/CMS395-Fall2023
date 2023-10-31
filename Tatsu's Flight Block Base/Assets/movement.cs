@@ -8,39 +8,39 @@ public class MovementScript : MonoBehaviour
 {
     public float displacement;
     public Rigidbody2D dragon;
-    Vector2 initial;
+    public float initial = 0;
     public Animator animator;
     public float jump;
-    Vector2 scroll;
+    public float scrollSpeed = 2f;
 
     // Start is called before the first frame update
     void Start()
     {
         dragon = GetComponent<Rigidbody2D>();
         animator = gameObject.GetComponent<Animator>();
-        initial = dragon.transform.localPosition;
-        scroll = dragon.transform.localPosition;
+        //initial = dragon.transform.localPosition;
+        float newPosition = transform.position.x + scrollSpeed * Time.deltaTime;
     }
 
     // Update is called once per frame
     void Update()
     {
-        scroll.x = scroll.x + 2f;
-        dragon.MovePosition(scroll);
+        float newPosition = transform.position.x + scrollSpeed * Time.deltaTime;
+        //transform.position = new Vector3(newPosition, transform.position.y, transform.position.z);
 
         if ((Input.GetKey(KeyCode.UpArrow)))
-            if (initial.y <= 4)
-                initial.y = initial.y + displacement;
+            if (initial <= 4)
+                initial = initial + displacement;
 
         if ((Input.GetKey(KeyCode.DownArrow)))
-            if (initial.y >= -4)
-                initial.y = initial.y - displacement;
+            if (initial >= -4)
+                initial = initial - displacement;
 
-        dragon.MovePosition(initial);
-
+        //dragon.MovePosition(initial);
+        transform.position = new Vector3(newPosition, initial, transform.position.z);
         //if((Input.GetKey(KeyCode.Space)))
-            //animator.SetTrigger("fireball");
-
+        //animator.SetTrigger("fireball");
 
     }
+    
 }
