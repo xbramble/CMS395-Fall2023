@@ -29,11 +29,11 @@ public class MovementScript : MonoBehaviour
         //transform.position = new Vector3(newPosition, transform.position.y, transform.position.z);
 
         if ((Input.GetKey(KeyCode.UpArrow)))
-            if (initial <= 4)
+            if (initial <= 5)
                 initial = initial + displacement;
 
         if ((Input.GetKey(KeyCode.DownArrow)))
-            if (initial >= -4)
+            if (initial >= -5)
                 initial = initial - displacement;
 
         //dragon.MovePosition(initial);
