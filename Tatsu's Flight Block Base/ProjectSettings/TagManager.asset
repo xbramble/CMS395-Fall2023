@@ -8,6 +8,8 @@ TagManager:
   - platform
   - knight
   - archer
+  - heart
+  - star
   layers:
   - Default
   - TransparentFX
