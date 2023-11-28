@@ -13,6 +13,8 @@ public class MovementScript : MonoBehaviour
     public float jump;
     public float scrollSpeed = 2f;
 
+    [SerializeField] private AudioSource dragonInjured;
+
     // Start is called before the first frame update
     void Start()
     {
