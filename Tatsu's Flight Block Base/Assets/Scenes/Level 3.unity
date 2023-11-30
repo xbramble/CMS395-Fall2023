@@ -1207,7 +1207,7 @@ GameObject:
   - component: {fileID: 1097429189}
   - component: {fileID: 1097429188}
   m_Layer: 0
-  m_Name: Forest Background Music
+  m_Name: Volcano Background Music
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1223,7 +1223,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a73a71ce551754f1f9a53fbbb91baeff, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 4bfff7091e9b5485190784133ed591e3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.105
   m_Pitch: 1
