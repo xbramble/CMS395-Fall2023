@@ -9,7 +9,7 @@ public class nextLevel3 : MonoBehaviour
     {
         if (collision.CompareTag("dragon"))
         {
-            SceneManager.LoadScene("Thanks");
+            SceneManager.LoadScene("4");
         }
     }
 }
