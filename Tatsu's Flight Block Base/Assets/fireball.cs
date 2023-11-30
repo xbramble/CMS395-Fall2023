@@ -6,6 +6,9 @@ public class PlayerController : MonoBehaviour
     public Transform firePoint;
     public float fireballSpeed = 5f;
 
+     public AudioSource fireballShoot;
+     public AudioSource roar;
+
     // Update is called once per frame
     void Update()
     {
@@ -13,6 +16,7 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space))
         {
             ShootFireball();
+            roar.Play();
         }
     }
 
@@ -29,6 +33,8 @@ public class PlayerController : MonoBehaviour
 
         // Optional: Set the fireball's owner (useful for handling collisions)
         fireball.GetComponent<FireballController>().SetOwner(gameObject);
+
+        fireballShoot.Play();
     }
 }
 

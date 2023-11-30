@@ -5,6 +5,8 @@ public class FireballController : MonoBehaviour
     public float lifetime = 3f;
     public GameObject owner;
 
+    [SerializeField] public AudioSource humanDied;
+
     void Start()
     {
         // Destroy the fireball after a certain lifetime
@@ -19,6 +21,8 @@ public class FireballController : MonoBehaviour
             // Handle enemy hit by player's fireball (e.g., destroy enemy)
             Destroy(collision.gameObject);
             Destroy(gameObject);
+            humanDied.Play();
+
         }
         if (collision.CompareTag("projectile") && owner.CompareTag("fireball"))
         {
