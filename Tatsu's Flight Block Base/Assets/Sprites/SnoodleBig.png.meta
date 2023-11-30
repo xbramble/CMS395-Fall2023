@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -121,7 +121,532 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SnoodleBig_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eb3ad9bf140d2543b7241b884791f15
+      internalID: -321948811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1080
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3436b2e58e05c0449a3e01ea11bd2529
+      internalID: 1036512243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_2
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1080
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65fa7076fa0cdab4eb1783f729f56e78
+      internalID: 1743454005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_3
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1080
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72bb01b0c80ee3949a4d914327d2a8f4
+      internalID: 1145573448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_4
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1080
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d98387571580d45b7fda61647a8f27
+      internalID: 1557499079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 810
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f42faa3463e914da5d4f81edd41429
+      internalID: 1929104489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 810
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c4105daf973f245894c5ecfd22e64e
+      internalID: 998281677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_7
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 810
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b4874b5462bad4aa887a9b811b3d31
+      internalID: -2044266184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_8
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 810
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e701cef4afb16f943a24f82278986d24
+      internalID: 337072132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_9
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 810
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6a73b68215cfc47bc00ad6337cadd8
+      internalID: -1664501213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fccd52e3311bca449428268142d3b89
+      internalID: -1349767746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_11
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 540
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68414202615853647a2081a9b5ad71da
+      internalID: 1899868936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_12
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 540
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa2535ba0e96d54884393705c634b6c
+      internalID: 1316644363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 540
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9998e6172ccbe5043a05c5ac571c9885
+      internalID: -238789907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 540
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 875b3ae13a8e61945b0327bf5be5d25c
+      internalID: 331338871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad274b651ba12b94c85f409db7903691
+      internalID: -1776701900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 270
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb57429cdecd47b4b8e52d016e09879b
+      internalID: 442272139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_17
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 270
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac26090673aab7443aeccf6e35b714e2
+      internalID: -742288647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_18
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 270
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e3d39dfae3a754881fd53dc285b809
+      internalID: 1188293484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_19
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 270
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef0726fa7475f468f31b60422da448
+      internalID: 1660640199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a5ee9d4d9dc774abf66c2a1dddf37b
+      internalID: -1335359107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_21
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 579d570535435f440b5c9b4acca3cbdb
+      internalID: 577882190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_22
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a57842a7e01dd734e9c59c357983f130
+      internalID: -1611683747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_23
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28322566bca7f5549808a3961140a856
+      internalID: 608794133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnoodleBig_24
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 300
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02193766103174c40a12314ab72bc424
+      internalID: -1340933806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +657,32 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SnoodleBig_0: -321948811
+      SnoodleBig_1: 1036512243
+      SnoodleBig_10: -1349767746
+      SnoodleBig_11: 1899868936
+      SnoodleBig_12: 1316644363
+      SnoodleBig_13: -238789907
+      SnoodleBig_14: 331338871
+      SnoodleBig_15: -1776701900
+      SnoodleBig_16: 442272139
+      SnoodleBig_17: -742288647
+      SnoodleBig_18: 1188293484
+      SnoodleBig_19: 1660640199
+      SnoodleBig_2: 1743454005
+      SnoodleBig_20: -1335359107
+      SnoodleBig_21: 577882190
+      SnoodleBig_22: -1611683747
+      SnoodleBig_23: 608794133
+      SnoodleBig_24: -1340933806
+      SnoodleBig_3: 1145573448
+      SnoodleBig_4: 1557499079
+      SnoodleBig_5: 1929104489
+      SnoodleBig_6: 998281677
+      SnoodleBig_7: -2044266184
+      SnoodleBig_8: 337072132
+      SnoodleBig_9: -1664501213
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -121,7 +121,385 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: CrossbowmanSnow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 813
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f4c9cde19aa9d4e94fec0aa162db46
+      internalID: 1057504463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 813
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df41509ee108cd41838261c8a74a02b
+      internalID: -2053328039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_2
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 813
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7897e3bac05d643bcc1eeeb6ac8bdf
+      internalID: -185305897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_3
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 813
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8fc084fb4b27104d928c176abf3110b
+      internalID: 851579777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_4
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 813
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ab74b7574286e4c80cc9fe36a25259
+      internalID: 477224622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e563073c61738ae4eab8345742dfbf4f
+      internalID: 1343455234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_6
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 542
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 942d6083fe711434e8c3a3d954752844
+      internalID: -1316041559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_7
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 542
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777a194d56f2f8f4ca7ce5768fc9bedb
+      internalID: -2055442806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_8
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 542
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2885608098be67c4599487f7411387a5
+      internalID: 1671621998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_9
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 542
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692baddf294188045a06114a90eb1a10
+      internalID: -1492728212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f987038628a5949960fb05f72e1e18
+      internalID: 427207986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 271
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5cd7149dde34c7459b14f2c2f369132
+      internalID: 832562668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_12
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 271
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13325f40638d93b4bb75a59e3c35a246
+      internalID: -704990937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_13
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 271
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0c03a526f390c43b2f51f5d435bf5a
+      internalID: -755705285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_14
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 271
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d761cbc8d319e784bb9d7c68291c4d11
+      internalID: -149831823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad535a5ee6bf2f4f84da0f612dcecef
+      internalID: -978760579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_16
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa1a9637023b96d439446998e544045b
+      internalID: -1431794246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CrossbowmanSnow_17
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 432
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ffcc24149b1b146a3d6de8d48a487c
+      internalID: 1186218373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +510,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CrossbowmanSnow_0: 1057504463
+      CrossbowmanSnow_1: -2053328039
+      CrossbowmanSnow_10: 427207986
+      CrossbowmanSnow_11: 832562668
+      CrossbowmanSnow_12: -704990937
+      CrossbowmanSnow_13: -755705285
+      CrossbowmanSnow_14: -149831823
+      CrossbowmanSnow_15: -978760579
+      CrossbowmanSnow_16: -1431794246
+      CrossbowmanSnow_17: 1186218373
+      CrossbowmanSnow_18: -709051564
+      CrossbowmanSnow_19: -1547207576
+      CrossbowmanSnow_2: -185305897
+      CrossbowmanSnow_3: 851579777
+      CrossbowmanSnow_4: 477224622
+      CrossbowmanSnow_5: 1343455234
+      CrossbowmanSnow_6: -1316041559
+      CrossbowmanSnow_7: -2055442806
+      CrossbowmanSnow_8: 1671621998
+      CrossbowmanSnow_9: -1492728212
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

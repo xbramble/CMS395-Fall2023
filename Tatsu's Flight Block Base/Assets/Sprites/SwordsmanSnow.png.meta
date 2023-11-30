@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f84e8a8f27dbf470baacf417a7524b86
+guid: 0efa0072ceeb4f94cad82a9eaf2abd2b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -121,7 +121,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SwordsmanSnow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 234116b341cd04a41b93a920c719577f
+      internalID: -2143778889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a2bd914bd52494c841eb91d6338c6d
+      internalID: 318173107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_2
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05495957a1e0ab64d950167377f616b8
+      internalID: -128082076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_3
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d17cbd48f0930b4ca8bc348409f6a0b
+      internalID: 2074492088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_4
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb1231dbe0c45a49802fc5cabad0927
+      internalID: 1258255517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41cdf77fba42784cb8c1aef8a015f5d
+      internalID: -313229097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_6
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff61cee101c71a542953dcdc44170bc6
+      internalID: 1480753877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_7
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3758333bc65a9474bae974e44c747193
+      internalID: -1097038848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_8
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc2cb0f0d128ece48b8485963a14ad5b
+      internalID: 1520279173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_9
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7149031c897d304293a0c57a491baab
+      internalID: -764490656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b7406793f8c034090cd7aae94ec514
+      internalID: -1894048685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_11
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7348f292ed17bb3428d54707be550162
+      internalID: -33208292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_12
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e40bab99602a90b4cb31b776bf905913
+      internalID: 999207911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_13
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb38c598a3eda5b4cbdbb3b42f18e295
+      internalID: -1632071320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_14
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49511445c915cf42bd5eacd12155c72
+      internalID: 1818588352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9da86a2fae6c2e74cb8cf4e952386a71
+      internalID: 1022430646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca278377f2fb40a43aa82461496b91d9
+      internalID: 413682896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_17
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e4cf881c18a0d41b4a5635dcfa5ce6
+      internalID: 981713566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_18
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c081bc168ca3a2469c4018df9a25cfb
+      internalID: -1758748996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_19
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d8035ea33c63c94a87fb2da4e382589
+      internalID: -685135385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanSnow_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8b8daa245cb8a40a486161370aab7e
+      internalID: -1153873886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +573,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SwordsmanSnow_0: -2143778889
+      SwordsmanSnow_1: 318173107
+      SwordsmanSnow_10: -1894048685
+      SwordsmanSnow_11: -33208292
+      SwordsmanSnow_12: 999207911
+      SwordsmanSnow_13: -1632071320
+      SwordsmanSnow_14: 1818588352
+      SwordsmanSnow_15: 1022430646
+      SwordsmanSnow_16: 413682896
+      SwordsmanSnow_17: 981713566
+      SwordsmanSnow_18: -1758748996
+      SwordsmanSnow_19: -685135385
+      SwordsmanSnow_2: -128082076
+      SwordsmanSnow_20: -1153873886
+      SwordsmanSnow_3: 2074492088
+      SwordsmanSnow_4: 1258255517
+      SwordsmanSnow_5: -313229097
+      SwordsmanSnow_6: 1480753877
+      SwordsmanSnow_7: -1097038848
+      SwordsmanSnow_8: 1520279173
+      SwordsmanSnow_9: -764490656
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

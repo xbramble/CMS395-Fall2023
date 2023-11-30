@@ -10,7 +10,7 @@ public class follow : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 newPosition = new Vector3(target.position.x + 10, 0f, -10f);
+        Vector3 newPosition = new Vector3(target.position.x + 5.9f, 0f, -10f);
         transform.position = Vector3.Slerp(transform.position, newPosition, followSpeed * Time.deltaTime);
 
     }

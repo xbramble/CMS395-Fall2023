@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 9e12d590cbb1f452faec021883302447
+guid: 7f8e56d0351faee4787cce323e5e88aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -69,7 +69,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -121,7 +121,448 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: SwordsmanLava_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 217cb9adfb6dabb42abaccb1c77a43cf
+      internalID: -1060078293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_1
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dd5214ad883bcf4cb28fd6f41e1c6cd
+      internalID: -1876131331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_2
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c62ea4049ec32ec4b91d11ae06c8d020
+      internalID: 142630754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_3
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d32398fe687c541b946f086330ce09
+      internalID: -1093800552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_4
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2800
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cb15ff418dac34faafe66e61f1d852
+      internalID: -1737408372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3894ea16d663e1340b58c9d8ee78c766
+      internalID: -1105992156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_6
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f4507bac136634ba87fa9abd09b359
+      internalID: -15396201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_7
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa28ac760e8b6a745a853bf3557ea5f0
+      internalID: 1665048271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_8
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42260373291490243ba3cdfe6a71ae44
+      internalID: -1080272065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_9
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 2100
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e97ae3c0157a6b48a89d84944caeee7
+      internalID: -1878655005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d5b48c426c40149a859c2fa80c1cf6
+      internalID: 1444150097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_11
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f9630074680ba4e92057bc9e89d875
+      internalID: -1122758586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_12
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a278153d10e8c84cbac1311fa996df0
+      internalID: 461304538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_13
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2f65411dc966942877fbe0910e993f
+      internalID: 336423339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_14
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 1400
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3cef2db2e287542ab04a81283ca582
+      internalID: 2057542026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c23e51b47ca4949a1a6c625ead0528
+      internalID: -101202590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_16
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf84eb77df2582a42b28ceb9208750bb
+      internalID: -301964726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_17
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a50bfad4a96ac8549ad3c6e6269e4062
+      internalID: -199284177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_18
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2a5cbafe680f047812e4a8e91fcf56
+      internalID: -2082994108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_19
+      rect:
+        serializedVersion: 2
+        x: 2592
+        y: 700
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a773b987af5e146bf1f49694f68881
+      internalID: 1117387762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SwordsmanLava_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 648
+        height: 700
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c926665b8d21445bdc17a977ca2ab5
+      internalID: -1709249507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +573,28 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SwordsmanLava_0: -1060078293
+      SwordsmanLava_1: -1876131331
+      SwordsmanLava_10: 1444150097
+      SwordsmanLava_11: -1122758586
+      SwordsmanLava_12: 461304538
+      SwordsmanLava_13: 336423339
+      SwordsmanLava_14: 2057542026
+      SwordsmanLava_15: -101202590
+      SwordsmanLava_16: -301964726
+      SwordsmanLava_17: -199284177
+      SwordsmanLava_18: -2082994108
+      SwordsmanLava_19: 1117387762
+      SwordsmanLava_2: 142630754
+      SwordsmanLava_20: -1709249507
+      SwordsmanLava_3: -1093800552
+      SwordsmanLava_4: -1737408372
+      SwordsmanLava_5: -1105992156
+      SwordsmanLava_6: -15396201
+      SwordsmanLava_7: 1665048271
+      SwordsmanLava_8: -1080272065
+      SwordsmanLava_9: -1878655005
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
