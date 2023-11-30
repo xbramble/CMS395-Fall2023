@@ -1,36 +1,30 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class arrow : MonoBehaviour
+public class ProjectileController : MonoBehaviour
 {
-    public float projectileLifetime = 3f;
+    public float lifetime = 3f;
     public GameObject owner;
 
-    private void Start()
+    void Start()
     {
-        Destroy(gameObject, projectileLifetime);
+        // Destroy the projectile after a certain lifetime
+        Destroy(gameObject, lifetime);
     }
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the projectile hits an enemy or another projectile
-       // if (other.CompareTag("Enemy") && owner.CompareTag("PlayerProjectile"))
-       // {
-         //   Destroy(other.gameObject); // Destroy the enemy
-        //    Destroy(gameObject); // Destroy the player's projectile
-     //   }
-        if (other.CompareTag("dragon") && owner.CompareTag("projectile"))
+        // Check for collisions with other objects (e.g., player)
+        if (collision.CompareTag("Player") && owner.CompareTag("EnemyProjectile"))
         {
             // Handle player hit by enemy projectile (e.g., decrease player health)
             // You can customize this part based on your game logic
-            Destroy(gameObject); // Destroy the enemy's projectile
+            Destroy(gameObject);
         }
     }
 
     // Set the owner of the projectile
-    //public void SetOwner(GameObject newOwner)
-    //{
-    //    owner = newOwner;
-   // }
+    public void SetOwner(GameObject newOwner)
+    {
+        owner = newOwner;
+    }
 }

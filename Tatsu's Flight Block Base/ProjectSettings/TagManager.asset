@@ -13,6 +13,10 @@ TagManager:
   - projectile
   - fire
   - arrow
+  - heart1
+  - heart2
+  - heart3
+  - soul
   layers:
   - Default
   - TransparentFX

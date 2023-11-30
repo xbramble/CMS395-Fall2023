@@ -1,36 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class enemy : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public Transform shootPoint;
-    public float shootInterval = 1f;
+    public float shootInterval = 2f;
     public float projectileSpeed = 5f;
 
     private float nextShootTime;
 
-    private void Update()
+    void Update()
     {
+        // Check if it's time to shoot
         if (Time.time > nextShootTime)
         {
-            Shoot();
+            ShootProjectile();
+            // Set the next shoot time
             nextShootTime = Time.time + shootInterval;
         }
     }
 
-    private void Shoot()
+    void ShootProjectile()
     {
+        // Instantiate a new projectile at the shoot point position
         GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, Quaternion.identity);
-        Rigidbody projectileRb = projectile.GetComponent<Rigidbody>();
-        projectileRb.velocity = transform.forward * projectileSpeed;
 
-        // Set the owner of the projectile to this enemy
-        //ProjectileController projectileController = projectile.GetComponent<ProjectileController>();
-        //if (projectileController != null)
-        //{
-         //   projectileController.SetOwner(gameObject);
-        //}
+        // Get the Rigidbody2D component of the projectile
+        Rigidbody2D projectileRb = projectile.GetComponent<Rigidbody2D>();
+
+        // Set the velocity of the projectile
+        projectileRb.velocity = transform.right * projectileSpeed;
+
+        // Optional: Set the projectile's owner (useful for handling collisions)
+        projectile.GetComponent<ProjectileController>().SetOwner(gameObject);
     }
 }
