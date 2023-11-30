@@ -10,6 +10,8 @@ TagManager:
   - archer
   - heart
   - star
+  - projectile
+  - fire
   layers:
   - Default
   - TransparentFX
