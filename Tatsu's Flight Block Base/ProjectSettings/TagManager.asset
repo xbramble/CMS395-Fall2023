@@ -17,6 +17,7 @@ TagManager:
   - heart2
   - heart3
   - soul
+  - enemy
   layers:
   - Default
   - TransparentFX

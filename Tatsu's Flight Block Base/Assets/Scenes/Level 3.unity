@@ -1059,7 +1059,7 @@ GameObject:
   - component: {fileID: 871314472}
   m_Layer: 0
   m_Name: SwordsmanLava_0
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2243,7 +2243,7 @@ GameObject:
   - component: {fileID: 1905497863}
   m_Layer: 0
   m_Name: CrossbowmanLava_0
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2491,7 +2491,7 @@ GameObject:
   - component: {fileID: 2008903836}
   m_Layer: 0
   m_Name: Soul_0
-  m_TagString: Untagged
+  m_TagString: soul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2600,7 +2600,7 @@ GameObject:
   - component: {fileID: 2020180152}
   m_Layer: 0
   m_Name: ArrowLava_0
-  m_TagString: Untagged
+  m_TagString: projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

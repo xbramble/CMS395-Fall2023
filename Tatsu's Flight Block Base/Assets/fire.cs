@@ -20,6 +20,11 @@ public class FireballController : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
+        if (collision.CompareTag("projectile") && owner.CompareTag("fireball"))
+        {
+            Destroy(collision.gameObject);
+            Destroy(gameObject);
+        }
     }
 
     // Set the owner of the fireball
