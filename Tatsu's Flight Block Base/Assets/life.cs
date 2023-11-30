@@ -12,6 +12,8 @@ public class life : MonoBehaviour
     public GameObject heart3;
     public GameObject dragon;
 
+    [SerializeField] public AudioSource dragonInjured;
+
     void Start()
 
 
@@ -31,14 +33,17 @@ public class life : MonoBehaviour
             if(hits == 1)
             {
                 heart1.SetActive(false);
+                dragonInjured.Play();
             }
             else if(hits == 2)
             {
                 heart2.SetActive(false);
+                dragonInjured.Play();
             }
             else if(hits == 3)
             {
                 heart3.SetActive(false);
+                dragonInjured.Play();
             }
             else
             {
