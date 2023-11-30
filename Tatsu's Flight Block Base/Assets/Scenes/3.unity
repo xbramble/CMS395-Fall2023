@@ -1749,6 +1749,7 @@ GameObject:
   - component: {fileID: 1127833078}
   - component: {fileID: 1127833080}
   - component: {fileID: 1127833079}
+  - component: {fileID: 1127833081}
   m_Layer: 0
   m_Name: FinishFlagLava_0
   m_TagString: Untagged
@@ -1844,6 +1845,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1127833081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127833077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf02e83872721407199fe1e609dfe344, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1168552739
 GameObject:
   m_ObjectHideFlags: 0
