@@ -6,7 +6,7 @@ public class enemy : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public Transform shootPoint;
-    public float shootInterval = 2f;
+    public float shootInterval = 1f;
     public float projectileSpeed = 5f;
 
     private float nextShootTime;
@@ -27,10 +27,10 @@ public class enemy : MonoBehaviour
         projectileRb.velocity = transform.forward * projectileSpeed;
 
         // Set the owner of the projectile to this enemy
-       // ProjectileController projectileController = projectile.GetComponent<ProjectileController>();
-       // if (projectileController != null)
-       // {
-       //     projectileController.SetOwner(gameObject);
-       // }
+        //ProjectileController projectileController = projectile.GetComponent<ProjectileController>();
+        //if (projectileController != null)
+        //{
+         //   projectileController.SetOwner(gameObject);
+        //}
     }
 }

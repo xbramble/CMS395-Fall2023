@@ -12,6 +12,7 @@ TagManager:
   - star
   - projectile
   - fire
+  - arrow
   layers:
   - Default
   - TransparentFX
