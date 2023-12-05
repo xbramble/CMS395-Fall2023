@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.RuleTile.TilingRuleOutput;
+using static UnityEngine.Random;
 
 public class MovementScript : MonoBehaviour
 {
@@ -24,6 +25,7 @@ public class MovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         /*
         *   Movement Up and Down
         */
@@ -73,6 +75,15 @@ public class MovementScript : MonoBehaviour
 
         if ((Input.GetKey(KeyCode.H)))
             animator.SetFloat("IsDead", 1);
+
+        /*
+        *   Random player hurting
+        */
+
+        if (Random.Range (1, 241) > 239) {
+            Debug.Log("Hurting Player");
+            animator.SetFloat("IsHurt", 1);
+        }
 
     }
     
