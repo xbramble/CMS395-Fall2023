@@ -6,8 +6,8 @@ public class PlayerController : MonoBehaviour
     public Transform firePoint;
     public float fireballSpeed = 5f;
 
-     public AudioSource fireballShoot;
-     public AudioSource roar;
+    [SerializeField] public AudioSource fireballShoot;
+    [SerializeField] public AudioSource roar;
 
     // Update is called once per frame
     void Update()

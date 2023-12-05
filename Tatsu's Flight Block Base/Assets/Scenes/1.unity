@@ -297,8 +297,8 @@ MonoBehaviour:
   fireballPrefab: {fileID: 299159350}
   firePoint: {fileID: 41441120}
   fireballSpeed: 5
-  fireballShoot: {fileID: 0}
-  roar: {fileID: 0}
+  fireballShoot: {fileID: 2055159073}
+  roar: {fileID: 614100585}
 --- !u!114 &41441124
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -317,7 +317,7 @@ MonoBehaviour:
   heart2: {fileID: 136726572}
   heart3: {fileID: 1947341749}
   dragon: {fileID: 41441117}
-  dragonInjured: {fileID: 0}
+  dragonInjured: {fileID: 962441229}
 --- !u!61 &41441125
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -900,7 +900,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifetime: 3
   owner: {fileID: 0}
-  humanDied: {fileID: 0}
+  humanDied: {fileID: 1245503895}
 --- !u!61 &299159355
 BoxCollider2D:
   m_ObjectHideFlags: 0
