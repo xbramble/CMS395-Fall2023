@@ -9,6 +9,11 @@ public class quit : MonoBehaviour
     {
         // Load the main game scene
         Application.Quit();
+    } 
+
+    public void replay()
+    {
+        SceneManager.LoadScene("1");
     }
 }
 
